@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хөвсгөл Политехник Коллеж</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="top-header">
+
+        <div class="school-info">
+
+            <div class="logo">🎓</div>
+
+            <div>
+                <h2>ХӨВСГӨЛ АЙМАГ ДАХЬ</h2>
+                <h1>ПОЛИТЕХНИК КОЛЛЕЖ</h1>
+            </div>
+
+        </div>
+
+        <div class="contact">
+            ☎ +976-99382221, 86922244
+            <br>
+            ✉ polytechniccollege.kh@gmail.com
+        </div>
+
+    </div>
+
+
+    <nav>
+        <div class="nav-container">
+
+            <!-- НҮҮР -->
+            <a href="index.html" class="active">
+                ⌂ НҮҮР
+            </a>
+
+            <a href="#about">
+                БИДНИЙ ТУХАЙ
+            </a>
+
+            <a href="#specialities">
+                МЭДЭЭ, МЭДЭЭЛЭЛ
+            </a>
+
+            <!-- ЭЛСЭЛТ -->
+            <a href="register.html">
+                ЭЛСЭЛТ
+            </a>
+
+        </div>
+    </nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-overlay">
+
+        <div class="hero-content">
+
+            <h1>
+                2026-2027 ОНЫ
+                <br>
+                ХИЧЭЭЛИЙН ЖИЛИЙН
+                <br>
+                ЭЛСЭЛТ
+            </h1>
+
+            <p>
+                АЖИЛСАГ ХҮН АМЖИЛТАНД ХҮРНЭ.
+            </p>
+
+            <a href="register.html" class="hero-button">
+                ЭЛСЭЛТИЙН БҮРТГЭЛ
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="intro" id="about">
+
+    <h2>ЭЛСЭЛТ</h2>
+
+    <div class="yellow-line"></div>
+
+    <p>
+        Хөвсгөл аймаг дахь Политехник коллежийн
+        2026-2027 оны хичээлийн жилийн элсэлт эхэллээ.
+    </p>
+
+    <p>
+        Та доорх товчийг дарж цахим элсэлтийн
+        бүртгэлээ үүсгэнэ үү.
+    </p>
+
+    <a href="register.html" class="register-button">
+        ЭЛСЭЛТИЙН БҮРТГЭЛ →
+    </a>
+
+</section>
+
+
+<!-- SPECIALITIES -->
+
+<section class="specialities" id="specialities">
+
+    <div class="section-title">
+
+        <h2>МЭРГЭЖЛИЙН ЧИГЛЭЛҮҮД</h2>
+
+        <div></div>
+
+    </div>
+
+
+    <div class="cards">
+
+        <div class="speciality-card">
+
+            <div class="icon">💻</div>
+
+            <h3>
+                Мэдээллийн технологи
+            </h3>
+
+            <p>
+                Программ хангамж, мэдээллийн
+                технологийн чиглэл.
+            </p>
+
+        </div>
+
+
+        <div class="speciality-card">
+
+            <div class="icon">⚙️</div>
+
+            <h3>
+                Механик
+            </h3>
+
+            <p>
+                Машин механизм болон техникийн
+                чиглэлээр суралцана.
+            </p>
+
+        </div>
+
+
+        <div class="speciality-card">
+
+            <div class="icon">👨‍🍳</div>
+
+            <h3>
+                Тогооч
+            </h3>
+
+            <p>
+                Хоол үйлдвэрлэл, үйлчилгээний
+                мэргэжил.
+            </p>
+
+        </div>
+
+
+        <div class="speciality-card">
+
+            <div class="icon">🏗️</div>
+
+            <h3>
+                Барилга
+            </h3>
+
+            <p>
+                Барилгын техник болон
+                үйлдвэрлэлийн чиглэл.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <h3>ХӨВСГӨЛ АЙМАГ ДАХЬ</h3>
+            <h3>ПОЛИТЕХНИК КОЛЛЕЖ</h3>
+        </div>
+
+        <div>
+            <p>☎ +976-99382221</p>
+            <p>✉ polytechniccollege.kh@gmail.com</p>
+        </div>
+
+        <div>
+            <p>📍 Хөвсгөл аймаг, Мөрөн сум</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 Хөвсгөл Политехник Коллеж
+    </div>
+
+</footer>
+
+</body>
+</html>
