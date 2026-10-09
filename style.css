@@ -1,0 +1,778 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background: #fff;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background: white;
+}
+
+
+.top-header {
+
+    height: 100px;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 0 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+.school-info {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+}
+
+
+.logo {
+
+    width: 65px;
+
+    height: 65px;
+
+    border-radius: 50%;
+
+    background: #eee;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 35px;
+}
+
+
+.school-info h2 {
+
+    font-size: 14px;
+
+    color: #174d8c;
+}
+
+
+.school-info h1 {
+
+    font-size: 21px;
+
+    color: #174d8c;
+}
+
+
+.contact {
+
+    text-align: right;
+
+    color: #777;
+
+    font-size: 12px;
+
+    line-height: 22px;
+}
+
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+nav {
+
+    background: #064a91;
+}
+
+
+.nav-container {
+
+    max-width: 1200px;
+
+    height: 48px;
+
+    margin: auto;
+
+    padding: 0 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+}
+
+
+.nav-container a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    padding: 17px 0;
+}
+
+
+.nav-container a:hover {
+
+    color: #ffd000;
+}
+
+
+.nav-container .active {
+
+    color: #ffd000;
+}
+
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+
+    height: 460px;
+
+    background-image:
+        url("https://images.unsplash.com/photo-1581091226825-a6a2a5aee158");
+
+    background-size: cover;
+
+    background-position: center;
+
+    position: relative;
+}
+
+
+.hero-overlay {
+
+    width: 100%;
+
+    height: 100%;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0,0,0,.75),
+            rgba(0,0,0,.15)
+        );
+
+    display: flex;
+
+    align-items: center;
+}
+
+
+.hero-content {
+
+    max-width: 1200px;
+
+    width: 100%;
+
+    margin: auto;
+
+    padding-left: 20px;
+
+    color: white;
+}
+
+
+.hero-content h1 {
+
+    font-size: 45px;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+
+
+.hero-content p {
+
+    font-size: 18px;
+
+    margin-bottom: 30px;
+}
+
+
+.hero-button {
+
+    display: inline-block;
+
+    background: #ffd000;
+
+    color: #111;
+
+    padding: 15px 25px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-radius: 3px;
+}
+
+
+.hero-button:hover {
+
+    background: white;
+}
+
+
+
+/* =========================
+   INTRO
+========================= */
+
+.intro {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    padding: 80px 20px;
+
+    text-align: center;
+}
+
+
+.intro h2 {
+
+    color: #064a91;
+
+    font-size: 32px;
+}
+
+
+.yellow-line {
+
+    width: 50px;
+
+    height: 4px;
+
+    background: #ffd000;
+
+    margin: 15px auto 30px;
+}
+
+
+.intro p {
+
+    color: #666;
+
+    line-height: 1.8;
+
+    margin-bottom: 8px;
+}
+
+
+.register-button {
+
+    display: inline-block;
+
+    margin-top: 25px;
+
+    background: #064a91;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 14px 25px;
+
+    font-weight: bold;
+}
+
+
+.register-button:hover {
+
+    background: #ffd000;
+
+    color: #111;
+}
+
+
+
+/* =========================
+   SPECIALITIES
+========================= */
+
+.specialities {
+
+    background: #f5f7fa;
+
+    padding: 70px 20px;
+}
+
+
+.section-title {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+
+.section-title h2 {
+
+    color: #064a91;
+
+    font-size: 30px;
+}
+
+
+.section-title div {
+
+    width: 45px;
+
+    height: 4px;
+
+    background: #ffd000;
+
+    margin: 12px auto;
+}
+
+
+.cards {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+
+.speciality-card {
+
+    background: white;
+
+    padding: 30px 20px;
+
+    text-align: center;
+
+    min-height: 220px;
+
+    border-bottom: 3px solid #064a91;
+
+    transition: .3s;
+}
+
+
+.speciality-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 30px
+        rgba(0,0,0,.1);
+}
+
+
+.icon {
+
+    font-size: 45px;
+
+    margin-bottom: 15px;
+}
+
+
+.speciality-card h3 {
+
+    color: #064a91;
+
+    margin-bottom: 12px;
+}
+
+
+.speciality-card p {
+
+    color: #777;
+
+    line-height: 1.6;
+
+    font-size: 14px;
+}
+
+
+
+/* =========================
+   REGISTER
+========================= */
+
+.register-section {
+
+    min-height: 700px;
+
+    padding: 60px 20px;
+
+    background: #f4f6f9;
+}
+
+
+.register-box {
+
+    max-width: 700px;
+
+    margin: auto;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 5px 25px
+        rgba(0,0,0,.1);
+}
+
+
+.register-title {
+
+    text-align: center;
+
+    color: #064a91;
+
+    font-size: 32px;
+
+    margin-bottom: 10px;
+}
+
+
+.description {
+
+    text-align: center;
+
+    color: #666;
+
+    line-height: 1.6;
+
+    margin-bottom: 30px;
+}
+
+
+.form-group {
+
+    margin-bottom: 20px;
+}
+
+
+.form-group > label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group select {
+
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+    font-size: 15px;
+}
+
+
+.form-group input:focus,
+.form-group select:focus {
+
+    outline: none;
+
+    border-color: #064a91;
+}
+
+
+.gender {
+
+    display: flex;
+
+    gap: 30px;
+}
+
+
+.gender label {
+
+    font-weight: normal;
+}
+
+
+.gender input {
+
+    margin-right: 5px;
+}
+
+
+.submit-button {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    background: #064a91;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.submit-button:hover {
+
+    background: #ffd000;
+
+    color: #111;
+}
+
+
+.back-button {
+
+    display: block;
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #064a91;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+.back-button:hover {
+
+    color: #ffd000;
+}
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+    background: #064a91;
+
+    color: white;
+
+    padding-top: 40px;
+}
+
+
+.footer-content {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding:
+        0 20px 35px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+
+.footer-content h3 {
+
+    font-size: 14px;
+
+    margin-bottom: 5px;
+}
+
+
+.footer-content p {
+
+    font-size: 13px;
+
+    margin-bottom: 8px;
+}
+
+
+.copyright {
+
+    text-align: center;
+
+    background: #043d78;
+
+    padding: 15px;
+
+    font-size: 12px;
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width: 900px) {
+
+    .contact {
+        display: none;
+    }
+
+
+    .hero {
+        height: 380px;
+    }
+
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+
+    .cards {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+
+    .footer-content {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+@media(max-width: 600px) {
+
+    .top-header {
+
+        height: 80px;
+
+    }
+
+
+    .logo {
+
+        width: 50px;
+
+        height: 50px;
+
+        font-size: 25px;
+
+    }
+
+
+    .school-info h2 {
+
+        font-size: 10px;
+
+    }
+
+
+    .school-info h1 {
+
+        font-size: 14px;
+
+    }
+
+
+    .nav-container {
+
+        overflow-x: auto;
+
+    }
+
+
+    .hero {
+
+        height: 350px;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size: 27px;
+
+    }
+
+
+    .hero-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    .cards {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .register-box {
+
+        padding: 25px 20px;
+
+    }
+
+}
