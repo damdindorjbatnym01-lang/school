@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="mn">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Элсэлтийн бүртгэл</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<header>
+
+    <div class="top-header">
+
+        <div class="school-info">
+
+            <div class="logo">
+                🎓
+            </div>
+
+            <div>
+
+                <h2>
+                    ХӨВСГӨЛ АЙМАГ ДАХЬ
+                </h2>
+
+                <h1>
+                    ПОЛИТЕХНИК КОЛЛЕЖ
+                </h1>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact">
+
+            ☎ +976-99382221, 86922244
+
+            <br>
+
+            ✉ polytechniccollege.kh@gmail.com
+
+        </div>
+
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <div class="nav-container">
+
+            <!-- НҮҮР ДАРАХАД INDEX.HTML -->
+
+            <a href="index.html">
+                ⌂ НҮҮР
+            </a>
+
+
+            <a href="index.html#about">
+                БИДНИЙ ТУХАЙ
+            </a>
+
+
+            <a href="index.html#specialities">
+                МЭДЭЭ, МЭДЭЭЛЭЛ
+            </a>
+
+
+            <!-- ОДОО БАЙГАА ХУУДАС -->
+
+            <a href="register.html" class="active">
+                ЭЛСЭЛТ
+            </a>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- REGISTRATION FORM -->
+
+<section class="register-section">
+
+
+    <div class="register-box">
+
+
+        <h1 class="register-title">
+
+            ЭЛСЭЛТИЙН БҮРТГЭЛ
+
+        </h1>
+
+
+        <div class="yellow-line"></div>
+
+
+        <p class="description">
+
+            Хөвсгөл аймаг дахь Политехник коллежийн
+            2026-2027 оны хичээлийн жилийн
+            элсэлтийн бүртгэлийн маягтыг бөглөнө үү.
+
+        </p>
+
+
+
+        <form>
+
+
+            <!-- НЭР -->
+
+            <div class="form-group">
+
+                <label>
+                    Овог, нэр *
+                </label>
+
+                <input
+                    type="text"
+                    placeholder="Овог нэрээ оруулна уу"
+                    required
+                >
+
+            </div>
+
+
+
+            <!-- РЕГИСТР -->
+
+            <div class="form-group">
+
+                <label>
+                    Регистрийн дугаар *
+                </label>
+
+                <input
+                    type="text"
+                    placeholder="Регистрийн дугаар"
+                    maxlength="10"
+                    required
+                >
+
+            </div>
+
+
+
+            <!-- ТӨРСӨН ОГНОО -->
+
+            <div class="form-group">
+
+                <label>
+                    Төрсөн огноо *
+                </label>
+
+                <input
+                    type="date"
+                    required
+                >
+
+            </div>
+
+
+
+            <!-- ХҮЙС -->
+
+            <div class="form-group">
+
+                <label>
+                    Хүйс *
+                </label>
+
+                <div class="gender">
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="gender"
+                            required
+                        >
+
+                        Эрэгтэй
+
+                    </label>
+
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="gender"
+                        >
+
+                        Эмэгтэй
+
+                    </label>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- УТАС -->
+
+            <div class="form-group">
+
+                <label>
+                    Утасны дугаар *
+                </label>
+
+                <input
+                    type="tel"
+                    placeholder="Жишээ: 99112233"
+                    required
+                >
+
+            </div>
+
+
+
+            <!-- EMAIL -->
+
+            <div class="form-group">
+
+                <label>
+                    И-мэйл
+                </label>
+
+                <input
+                    type="email"
+                    placeholder="example@gmail.com"
+                >
+
+            </div>
+
+
+
+            <!-- МЭРГЭЖИЛ -->
+
+            <div class="form-group">
+
+                <label>
+                    Сонгох мэргэжил *
+                </label>
+
+
+                <select required>
+
+                    <option value="">
+                        -- Мэргэжлээ сонгоно уу --
+                    </option>
+
+                    <option>
+                        Мэдээллийн технологи
+                    </option>
+
+                    <option>
+                        Механик
+                    </option>
+
+                    <option>
+                        Тогооч
+                    </option>
+
+                    <option>
+                        Барилга
+                    </option>
+
+                </select>
+
+            </div>
+
+
+
+            <!-- СУРГУУЛЬ -->
+
+            <div class="form-group">
+
+                <label>
+                    Төгссөн сургууль *
+                </label>
+
+                <input
+                    type="text"
+                    placeholder="Төгссөн сургуулийн нэр"
+                    required
+                >
+
+            </div>
+
+
+
+            <!-- BUTTON -->
+
+            <button
+                type="submit"
+                class="submit-button"
+            >
+
+                БҮРТГҮҮЛЭХ
+
+            </button>
+
+
+        </form>
+
+
+        <!-- НҮҮР РҮҮ БУЦАХ -->
+
+        <a
+            href="index.html"
+            class="back-button"
+        >
+
+            ← Нүүр хуудас руу буцах
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+
+            <h3>
+                ХӨВСГӨЛ АЙМАГ ДАХЬ
+            </h3>
+
+            <h3>
+                ПОЛИТЕХНИК КОЛЛЕЖ
+            </h3>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                ☎ +976-99382221
+            </p>
+
+            <p>
+                ✉ polytechniccollege.kh@gmail.com
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                📍 Хөвсгөл аймаг, Мөрөн сум
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Хөвсгөл Политехник Коллеж
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
